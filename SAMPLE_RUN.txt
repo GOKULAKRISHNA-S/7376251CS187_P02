@@ -1,0 +1,156 @@
+================================================================================
+SAMPLE RUN TRANSCRIPT — HOROSCOPE FINDER (mains.py)
+--------------------------------------------------------------------------------
+Author: Gokula Krishna S (Reg No: 7376251CS187)
+Project: AIXcelerate Python Level 2 — P02 Horoscope Finder
+File: mains.py
+Data File: lookups.txt
+
+NOTE: This is an illustrative sample run transcript documenting the interactive
+terminal behavior, prompts, validation, calculations, and output formatting of
+mains.py using the real records loaded from lookups.txt.
+================================================================================
+
+$ python mains.py
+ENTER TODAY'S DATE IN DD-MM-YYYY FORMAT: 21-10-2026
+
+========== HOROSCOPE FINDER ==========
+1. FIND HOROSCOPE
+2. VIEW ALL SAVED RECORDS
+3. SEARCH PERSON BY NAME
+4. COUNT PEOPLE BY ZODIAC SIGN
+5. COUNT PEOPLE BY ELEMENT
+6. EXIT
+ENTER YOUR CHOICE: 1
+
+========== FIND HOROSCOPE ==========
+ENTER YOUR NAME: ANANYA V
+ENTER YOUR DOB IN DD-MM-YYYY FORMAT: 15-08-2005
+DOB IS VALID
+ZODIAC SIGN : LEO
+ELEMENT : FIRE
+TRAITS : CONFIDENT, GENEROUS, CREATIVE
+LUCKY NUMBER : 1
+YOU ARE 21 YEARS OLD
+DAYS UNTIL NEXT BIRTHDAY: 298
+RECORD SAVED SUCCESSFULLY
+
+========== HOROSCOPE FINDER ==========
+1. FIND HOROSCOPE
+2. VIEW ALL SAVED RECORDS
+3. SEARCH PERSON BY NAME
+4. COUNT PEOPLE BY ZODIAC SIGN
+5. COUNT PEOPLE BY ELEMENT
+6. EXIT
+ENTER YOUR CHOICE: 2
+
+========== SAVED RECORDS ==========
+NAME : GOKULA KRISHNA S
+DOB : 22-10-2007
+ZODIAC SIGN : LIBRA
+AGE : 18
+----------------------------------
+NAME : SRINITHI S
+DOB : 09-05-2002
+ZODIAC SIGN : TAURUS
+AGE : 24
+----------------------------------
+NAME : NIRMALA S
+DOB : 15-08-1984
+ZODIAC SIGN : LEO
+AGE : 42
+----------------------------------
+NAME : SURESH M
+DOB : 26-08-1974
+ZODIAC SIGN : VIRGO
+AGE : 52
+----------------------------------
+NAME : KEERTI T
+DOB : 23-03-2009
+ZODIAC SIGN : ARIES
+AGE : 17
+----------------------------------
+NAME : KEERTHNA P
+DOB : 30-10-2007
+ZODIAC SIGN : SCORPIO
+AGE : 18
+----------------------------------
+NAME : HARINE T
+DOB : 28-12-2004
+ZODIAC SIGN : CAPRICORN
+AGE : 21
+----------------------------------
+NAME : SARVESHWAR S
+DOB : 06-06-2008
+ZODIAC SIGN : GEMINI
+AGE : 18
+----------------------------------
+NAME : ABINESH P
+DOB : 19-10-2007
+ZODIAC SIGN : LIBRA
+AGE : 19
+----------------------------------
+NAME : ANANYA V
+DOB : 15-08-2005
+ZODIAC SIGN : LEO
+AGE : 21
+----------------------------------
+
+========== HOROSCOPE FINDER ==========
+1. FIND HOROSCOPE
+2. VIEW ALL SAVED RECORDS
+3. SEARCH PERSON BY NAME
+4. COUNT PEOPLE BY ZODIAC SIGN
+5. COUNT PEOPLE BY ELEMENT
+6. EXIT
+ENTER YOUR CHOICE: 3
+ENTER NAME TO SEARCH: GOKULA KRISHNA S
+
+========== PERSON FOUND ==========
+NAME : GOKULA KRISHNA S
+DOB : 22-10-2007
+ZODIAC SIGN : LIBRA
+AGE : 18
+
+========== HOROSCOPE FINDER ==========
+1. FIND HOROSCOPE
+2. VIEW ALL SAVED RECORDS
+3. SEARCH PERSON BY NAME
+4. COUNT PEOPLE BY ZODIAC SIGN
+5. COUNT PEOPLE BY ELEMENT
+6. EXIT
+ENTER YOUR CHOICE: 4
+ENTER THE ZODIAC SIGN: LIBRA
+NUMBER OF PEOPLE WITH LIBRA SIGN: 2
+
+========== HOROSCOPE FINDER ==========
+1. FIND HOROSCOPE
+2. VIEW ALL SAVED RECORDS
+3. SEARCH PERSON BY NAME
+4. COUNT PEOPLE BY ZODIAC SIGN
+5. COUNT PEOPLE BY ELEMENT
+6. EXIT
+ENTER YOUR CHOICE: 5
+ENTER THE ELEMENT (FIRE, EARTH, AIR, WATER): AIR
+NUMBER OF PEOPLE WITH AIR ELEMENT: 3
+
+========== HOROSCOPE FINDER ==========
+1. FIND HOROSCOPE
+2. VIEW ALL SAVED RECORDS
+3. SEARCH PERSON BY NAME
+4. COUNT PEOPLE BY ZODIAC SIGN
+5. COUNT PEOPLE BY ELEMENT
+6. EXIT
+ENTER YOUR CHOICE: 9
+INVALID MENU CHOICE
+
+========== HOROSCOPE FINDER ==========
+1. FIND HOROSCOPE
+2. VIEW ALL SAVED RECORDS
+3. SEARCH PERSON BY NAME
+4. COUNT PEOPLE BY ZODIAC SIGN
+5. COUNT PEOPLE BY ELEMENT
+6. EXIT
+ENTER YOUR CHOICE: 6
+THANK YOU FOR USING HOROSCOPE FINDER!
+GOODBYE!
